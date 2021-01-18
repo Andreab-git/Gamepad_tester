@@ -287,7 +287,7 @@ public class MainActivity extends AppCompatActivity {
             default:
                 return super.onKeyUp(keyCode, event);
         }
-    };
+    }
 
 
 }

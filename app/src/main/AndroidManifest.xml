@@ -19,6 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="com.imtrying.joystick_tester.UsbService"
+            android:enabled="true">
+        </service>
     </application>
 
 </manifest>
